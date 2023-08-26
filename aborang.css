@@ -1,0 +1,90 @@
+body {
+    background-image: url(imej/back.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img.tajuk {
+    margin-top: 80px;
+    width: 75opx;
+        
+}
+
+h3 {
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    
+    padding: 10px 20px;
+    border: 2px solid#027e30 ;
+    border-radius: 20px 20px 20px 20px;
+    margin: 60px auto 6px;
+    background-color: #0cc059;
+    box-shadow: 15px 15px 6px 0px rgba(42, 160, 52, 0.7);
+}
+
+form {
+    text-align: center;
+    
+    padding: 20px;
+    border: 2px solid#821b99;
+    border-radius: 15px 15px 15px 15px;
+    margin: 0px auto;
+    margin-bottom: 50px auto;
+    background-color: #f020f9;
+    box-shadow: 15px 15px 6px 0px rgba(224, 130, 220, 0.7);
+}
+
+form.welcome, h3.welcome {
+    width: 140px;
+}
+
+form.pendek, h3.pendek {
+    width: 250px;
+}
+
+form.panjang, h3.panjang {
+    width: 330px
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+    padding: 6px 15px;
+    margin: 5px;
+    border-radius: 20px
+}
+
+::placeholder {
+    color: silver;
+}
+
+select {
+    width: 150px;
+    padding: 6px 10px;
+    margin: 5px;
+}
+
+input[type="file"] {
+    width: 200px;
+    padding: 2px;
+    margin: 5px;
+}
+
+td:nth-child(1) {
+    font-family: helvetica;
+    font-size: 14px;
+    color: black;
+    text-align: left;
+    
+    width: 200pxs
+}
+
+
+
+
+
+
+
