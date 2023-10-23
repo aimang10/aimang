@@ -1,6 +1,7 @@
 body {
       
-      background-color: darkseagreen;
+    
+      background-color: rgb(219, 74, 74);
   }
 
   img {
@@ -16,15 +17,20 @@ body {
   }
 
   h1 {
-      color: #ffd500;
+      color: #ffdddd;
+      font-family: Helvetica, sans-serif;
   }
 
   p {
-      color: #ffd500;
+      color: #ffd446;
   }
 
   h6 {
-      color: #ffffff;
+      color: #000000;
+  }
+
+  h6.jauhsekali {
+    line-height: 75;
   }
 
   div.home {
