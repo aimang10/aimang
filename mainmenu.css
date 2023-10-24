@@ -1,94 +1,108 @@
-body {
-      
-    
-      background-color: rgb(219, 74, 74);
-  }
+body {  
+  background-image: url(images/bg.png);
+}
 
-  img {
-      width: 125px;
-      border-radius: 75px;
-      border: 4px solid #ffffff;
-  }
+.propic {
+  margin-top: 40px;
+  width: 125px;
+  border-radius: 75px;
+  border: 4px solid #ffffff;
+}
 
-  .maintitle {
-      font-weight: bold;
-      margin-top: 40px;
-      font-size: larger;
-  }
+img{
+  margin-top: 0%;
+  width: 550px;
+  position: relative;
+}
 
-  h1 {
-      color: #ffdddd;
-      font-family: Helvetica, sans-serif;
-      font-size: 48px;
-  }
+.tajuk{
+  margin-bottom: 0%;
+}
 
-  p {
-      color: #ffd446;
-      font-size: 24px;
-  }
+.maintitle {
+  font-weight: bold;
+  font-size: 70px;
+}
 
-  h6 {
-      color: #000000;
-  }
+h1 {
+  color: #ff1414;
+  margin-top: 0%;
+}
 
-  h6.jauhsekali {
-    line-height: 75;
-  }
+p {
+  color: #000000;
+  margin-top: 0px;
+}
 
-  div.home {
-    width: 550px;
-    padding: 10px;
-    margin: 0px auto;
-  }
+h6 {
+  color: #000000;
+}
 
-  div.header {
-    height: 130px;
-    background-color: aquamarine;
-  }
+h6.jauhsekalimiskah {
+line-height: 75;
+}
 
-  div.menubar {
-    width: 100%;
-    height: 45px;
-    padding: 0px;
-    background-color: cadetblue;
- }
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
 
- ul {
-    list-style: none;
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
- }
+div.home {
+width: 550px;
+padding: 10px;
+margin: 0px auto;
+}
 
- ul li {
-    display: block;
-    float: left;
- }
+div.header {
+height: 130px;
+background-color: aquamarine;
+}
 
- li ul {
-    display: none;
- }
+div.menubar {
+width: 100%;
+height: 45px;
+padding: 0px;
+background-color: cadetblue;
+}
 
- ul li a {
-    font-family: verdana;
-    font-size: 14px;
-    font-weight: normal;
-    text-align: center;
-    color: white;
+ul {
+list-style: none;
+padding: 0px;
+margin: 0px;
+text-align: center;
+}
 
-    width: 100px;
-    padding: 14px;
-    background-color: darkseagreen;
-    margin-right: 2px;
-    display: block;
-    text-decoration: none;
+ul li {
+display: block;
+float: left;
+}
+
+li ul {
+display: none;
+}
+
+ul li a {
+font-family: verdana;
+font-size: 14px;
+font-weight: normal;
+text-align: center;
+color: white;
+
+width: 100px;
+padding: 14px;
+background-color: darkseagreen;
+margin-right: 2px;
+display: block;
+text-decoration: none;
 }
 
 
 
- ul li a:hover {
-    color: black;
-    background-color: silver;
- }
-
+ul li a:hover {
+color: black;
+background-color: silver;
+}
 
